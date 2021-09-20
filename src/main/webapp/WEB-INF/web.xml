@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.mycart.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterSarvlet</servlet-name>
+  	<display-name>RegisterSarvlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.mycart.servlets.RegisterSarvlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginSarvlet</servlet-name>
+  	<display-name>LoginSarvlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.mycart.servlets.LoginSarvlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.mycart.servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductOpeationServlet</servlet-name>
+  	<display-name>ProductOpeationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.mycart.servlets.ProductOpeationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterSarvlet</servlet-name>
+  	<url-pattern>/RegisterSarvlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginSarvlet</servlet-name>
+  	<url-pattern>/LoginSarvlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductOpeationServlet</servlet-name>
+  	<url-pattern>/ProductOpeationServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
